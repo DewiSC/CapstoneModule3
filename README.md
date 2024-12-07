@@ -74,6 +74,7 @@ Melakukan Exploratory data pada kolom numerik dan kategorikal
 
 # Conclusion & Recommendation
 **Conclusion**
+
 Berdasarkan analisis data yang dilakukan diawal, fitur 'proximity_encode' dan 'median_income' adalah fitur yang paling berpengaruh terhadap 'median_house_value', hal ini juga didukung kuat oleh pemodelan yang telah dilakukan menggunakan model XGBoost Regressor.
 
 Pada model ini digunakan 3 metrics evaluation, yaitu RMSE, MAE, dan MAPE. Nilai MAPE yang dimiliki oleh model setelah dilakukan hypertparameter tuning adalah 17.86%. Nilai MAPE sebesar 17.86% menunjukkan bahwa model ini berada dalam kategori Good Forecasting, yang berarti rata-rata prediksi model meleset sekitar 17.86% dari nilai actual.
@@ -83,6 +84,7 @@ Dengan nilai ini, model dapat digunakan untuk memperkirakan nilai median house v
 Untuk mengetahui tingkat efektivitas penggunaan model, karena dataset yang kita gunakan adalah data dari tahun 1990 maka **Backtesting** adalah metode yang paling relevan untuk mengukur efektivitas model dalam memprediksi data historis.
 
 **Recommendation**
+
     Lakukan Backtesting untuk menguji tingkat efektivitas model terhadap harga median house value.
 
 Lalu, hal-hal yang dapat dilakukan untuk mengembangkan model agar lebih baik lagi, seperti:
